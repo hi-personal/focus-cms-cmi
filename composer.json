@@ -1,0 +1,19 @@
+{
+    "name": "istvan86/composer-focus-module-installer",
+
+    "type": "composer-plugin",
+
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Istvan\\ComposerFocusModuleInstaller\\": "src/"
+        }
+    },
+
+    "extra": {
+        "class": "Istvan\\ComposerFocusModuleInstaller\\ModulePlugin"
+    }
+}
